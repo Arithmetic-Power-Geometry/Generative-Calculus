@@ -1,0 +1,10 @@
+time_budget,energy_budget,A_feasible,B_feasible
+1,1,False,True
+1,2,False,True
+1,3,True,True
+2,1,False,True
+2,2,False,True
+2,3,True,True
+3,1,True,True
+3,2,True,True
+3,3,True,True

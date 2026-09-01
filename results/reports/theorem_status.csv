@@ -1,0 +1,16 @@
+result,status,basis
+Envelope Representation,proved,compact Pareto representation
+Generative Preorder/Equivalence,proved,identity plus composition
+Blackwell-Le Cam Reduction,proved specialization,known comparison theory
+Resource-Theory Reduction,proved specialization,known resource theory
+Formal/Feasible Separation,proved specialization,time hierarchy
+Infinite Envelope Hierarchy,proved specialization,time hierarchy
+Metric Generative Derivative,conditional,metric plus absolute continuity
+Strong Proper-Projection Irreducibility,proved finite theorem,parity compatibility construction
+Unbounded Generative Order,proved finite hierarchy,parity family
+Convex Generative Reconstruction,proved restricted theorem,support-function path
+Universal Scalable Envelope Conservation,falsified as unrestricted claim,cyclic reversal-cost construction
+Operational Reversibility Conservation,proved conditional theorem,two-way admissible translation
+Budgeted Reachable-Envelope Transport,proved,protocol concatenation
+Turing Envelope Containment/Equality,undecidable specialization,Rice/Turing reduction
+Exact Generator Realizability,proved corollary,Nielsen-Chuang no-programming

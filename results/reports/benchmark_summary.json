@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "binary_sensor_rows": 5,
+  "marginal_budget_rows": 9,
+  "equality_rows": 8,
+  "hierarchy_rows": 20,
+  "finite_envelope_rows": 48,
+  "projection_rows": 35,
+  "convex_reconstruction_rows": 8,
+  "reversal_rows": 20,
+  "reachable_transport_rows": 400,
+  "reachable_transport_all_hold": true,
+  "public_mlperf_included": true,
+  "claims": {
+    "validation": "Blackwell/Le Cam, communication, complexity, reachability, and MLPerf examples are validation or scoped applications of established theory.",
+    "gc_internal": "Strong proper-projection irreducibility, unbounded GC projection order, convex reconstruction sector, reversal-cost construction, and budgeted reachable-envelope transport are formalized in the GC envelope language.",
+    "not_claimed": "No experimentally confirmed new law of fundamental physics is claimed."
+  }
+}

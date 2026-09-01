@@ -1,0 +1,3 @@
+system,resnet_qps_ok,bert_qps_ok,resnet_power_ok,bert_power_ok,joint_portfolio_feasible
+GIGABYTE G292-Z43 (16x QAIC100),True,True,False,False,False
+Krai R282-Z93 (5x QAIC100),False,False,True,True,False

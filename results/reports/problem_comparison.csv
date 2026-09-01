@@ -1,0 +1,10 @@
+problem,existing_framework,GC_result,comparison,role
+Binary experiment,Blackwell/Le Cam,Exact directional deficiency,Matches,validation
+Two-resource frontier,Pareto/multiobjective,"Equal minima, different joint feasibility",Matches underlying geometry,GC internal demonstration
+Equality communication,communication complexity,Linear vs constant-in-n proxy,Matches,validation
+Polynomial hierarchy slice,complexity theory,Nested finite growth families,Matches,illustration
+Proper-projection parity,marginal/higher-order interaction theory,All proper projections agree; wholes differ,"Known skeleton, GC interpretation",structural test
+Convex reconstruction,convex/metric analysis,Integrated support derivative reconstructs path,Matches exact identity,calculus validation
+Cyclic reversal,reversible dynamics/complexity,O(1) forward vs 2^n-1 operational reversal,"New GC construction, related ideas established",nonconservation stress test
+Reachable-envelope transport,reachability/viability,Budget-shift inclusion holds,Matches transitivity,dynamic GC theorem test
+MLPerf Power portfolio,performance-power benchmarking,Marginal best coordinates form unattained synthetic portfolio,Consistent with multi-resource trade-offs,public-data validation
