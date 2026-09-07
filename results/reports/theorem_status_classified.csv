@@ -1,0 +1,18 @@
+result,status,basis
+Envelope Representation,PROVED,compact Pareto representation under stated compactness assumption
+Generative Preorder/Equivalence,PROVED,identity plus composition closure
+Blackwell-Le Cam Reduction,IMPORTED/KNOWN,exact specialization of established comparison theory
+Resource-Theory Reduction,IMPORTED/KNOWN,definitional specialization of established resource theory
+Formal/Feasible Separation,IMPORTED/KNOWN,deterministic time-hierarchy specialization
+Infinite Envelope Hierarchy,IMPORTED/KNOWN,time-hierarchy specialization
+Metric Generative Derivative,CONDITIONAL,requires a specified metric on equivalence classes and absolute continuity
+Strong Proper-Projection Irreducibility,PROVED,finite parity compatibility construction; combinatorial skeleton is classical
+Unbounded Generative Order,PROVED,finite parity family yields unbounded distinguishing projection order
+Convex Generative Reconstruction,IMPORTED/KNOWN,support-function injectivity plus Banach-valued fundamental theorem of calculus
+Universal Scalable Envelope Conservation,FALSIFIED,cyclic bijective dynamics gives exponential reverse-via-forward cost
+Operational Reversibility Conservation,CONDITIONAL,requires faithful translations both directions in one composition-closed overhead class
+Budgeted Reachable-Envelope Transport,PROVED,protocol concatenation with explicit transition-cost accounting
+Turing Envelope Containment/Equality,IMPORTED/KNOWN,Rice/Turing undecidability specialization
+Exact Generator Realizability,IMPORTED/KNOWN,Nielsen-Chuang no-programming corollary
+Whole-envelope native quantitative prediction,OPEN,no same-input empirical law beyond neighboring frameworks yet established
+Translation-spectrum invariant beyond known simulation/resource orders,OPEN,no validated GC-native invariant yet established
