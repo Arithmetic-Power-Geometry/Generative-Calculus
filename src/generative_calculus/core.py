@@ -184,7 +184,7 @@ def convex_reconstruction_identity(
 
 
 def cyclic_reversal_cost(n: int) -> dict[str, int | float]:
-    """Closed reversible cycle showing microscopic reversibility != cheap operational reversal."""
+    """Closed bijective cycle showing microscopic bijectivity != cheap operational reversal."""
     n = int(n)
     if n < 1:
         raise ValueError("n must be >=1")
