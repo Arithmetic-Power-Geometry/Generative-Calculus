@@ -15,5 +15,6 @@ Operational Reversibility Conservation,CONDITIONAL,requires faithful translation
 Budgeted Reachable-Envelope Transport,PROVED,protocol concatenation with explicit transition-cost accounting
 Turing Envelope Containment/Equality,IMPORTED/KNOWN,Rice/Turing undecidability specialization
 Exact Generator Realizability,IMPORTED/KNOWN,Nielsen-Chuang no-programming corollary
+Uniform additive translation deficit,IMPORTED/KNOWN,for a fixed task/frontier and common additive resource shift it is the classical binary additive epsilon indicator of multiobjective optimization
 Whole-envelope native quantitative prediction,OPEN,no same-input empirical law beyond neighboring frameworks yet established
-Translation-spectrum invariant beyond known simulation/resource orders,OPEN,no validated GC-native invariant yet established
+Translation-spectrum invariant beyond known simulation/resource orders,OPEN,uniform additive-shift candidate killed by equivalence to the additive epsilon indicator; any surviving invariant must use task/composition/scale structure beyond ordinary Pareto-front translation
