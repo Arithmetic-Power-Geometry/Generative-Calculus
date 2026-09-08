@@ -8,6 +8,7 @@ Infinite Envelope Hierarchy,IMPORTED/KNOWN,time-hierarchy specialization
 Metric Generative Derivative,CONDITIONAL,requires a specified metric on equivalence classes and absolute continuity
 Strong Proper-Projection Irreducibility,PROVED,finite parity compatibility construction; combinatorial skeleton is classical
 Unbounded Generative Order,PROVED,finite parity family yields unbounded distinguishing projection order
+Q-ary Whole-Envelope Projection Ambiguity,PROVED,mod-q checksum gives q disjoint whole envelopes with every strict coordinate projection identical; coding/orthogonal-array skeleton is known
 Convex Generative Reconstruction,IMPORTED/KNOWN,support-function injectivity plus Banach-valued fundamental theorem of calculus
 Universal Scalable Envelope Conservation,FALSIFIED,cyclic bijective dynamics gives exponential reverse-via-forward cost
 Operational Reversibility Conservation,CONDITIONAL,requires faithful translations both directions in one composition-closed overhead class
