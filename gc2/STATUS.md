@@ -9,7 +9,7 @@
 - Closure-Escape Criterion: **PROVED for the finite single-target Omega_G candidate** (`Omega_G=0` iff target lies in lifted budgeted closure under positive-definite monotone penalty); shared-translator zero-gap criterion PROVED in the finite collision specialization; stronger operational whole-envelope criterion OPEN
 - No-Free-Capability Theorem: **PROVED restricted finite specialization**: a shared deterministic translator facing maximum collision multiplicity `m` requires at least `ceil(log2 m)` bits of auxiliary interface distinguishability when task identity is otherwise unavailable; universal theorem OPEN
 - Quantitative Capability-Accounting Bound: **PROVED finite candidate upper bound** `Omega_G <= F(Delta R,Delta I,Delta A,Delta L)` whenever the stated augmentation realizes the target; nonlinear interaction penalty implemented; exact interface lower bound PROVED in the shared-translator collision specialization; universal lower bounds OPEN
-- Complete Convertibility Criterion: **PROVED finite shared-deterministic-translator specialization** via source-fibre functional consistency; general structured criterion OPEN / high prior-art collision risk
+- Complete Convertibility Criterion: finite shared-deterministic-translator specialization PROVED via source-fibre functional consistency; **universal finite complete-monotone target FALSIFIED as a defensible general goal** by collision with known quantum-resource-theory impossibility; finite-preorder principal-lower-set indicators give a tautological complete family; structured compressed finite/computable or infinite/dual criterion OPEN
 - Generative Order: OPEN (seeded by GC-I projection irreducibility)
 - Proper-projection parity obstruction: PROVED mechanism / computationally reverified through m=10 / known mathematical mechanism
 - Arity-only translator lower bound: FALSIFIED for unrestricted compositional translators
@@ -36,12 +36,12 @@ Nothing in this ledger may be upgraded to PROVED or BREAKTHROUGH CANDIDATE witho
 ## Immediate test order
 1. Lift the shared-translator collision theorem from static symbols to operational traces and full task-scale-error-vector-budget tuples, preserving explicit R/I/A/L augmentation costs.
 2. Define a whole-envelope directed `Omega_G` requiring one globally realizable translator and test identity, monotonicity, composition/triangle behavior, invariance, and degeneracies.
-3. Search for a finite/computable family of monotones complete for a structured translator class; check collision with simulation preorders, Blackwell-Le Cam, majorization, database/CSP consistency, and zero-error information theory.
+3. Seek a finite/computable complete monotone family only for an explicitly structured translator class; otherwise seek an infinite separating family or dual/separation-oracle criterion. Do not pursue a universal finite family.
 4. Couple translator distinguishability to explicit vector-resource budgets to seek a quantitative lower bound not reducible to pure coding or classification.
 5. Specify admissible world-transition operators before attempting a broader No-Free-Capability theorem.
 6. Define natural resource-restricted translator models and test whether K_G reduces to known circuit, communication, database, CSP, extension-complexity or simulation-preorder measures.
 7. Search whole-envelope matched pairs where fixed-task Pareto data and low-order summaries agree but global translation/reconstruction costs differ.
-8. Audit all candidate quantities against mature neighboring concepts.
+8. Audit all candidate quantities against mature neighboring concepts, including catalysis and impossibility of finite complete monotone sets.
 
 ## Reproducible artifacts
 - `gc2/BUDGETED_CLOSURE_AUDIT_004.md`
@@ -52,6 +52,8 @@ Nothing in this ledger may be upgraded to PROVED or BREAKTHROUGH CANDIDATE witho
 - `gc2/GLOBAL_TRANSLATOR_AUDIT_006.md`
 - `gc2/global_translator.py`
 - `gc2/tests/test_gc2_global_translator.py`
+- `gc2/RESOURCE_INTERFACE_NONSUBSTITUTION_AUDIT_008.md`
+- `gc2/COMPLETE_MONOTONE_BOUNDARY_AUDIT_009.md`
 - `gc2/LOCAL_TO_GLOBAL_AUDIT_002.md`
 - `gc2/TEST_REPORT_003.md`
 - `gc2/tests/test_gc2_finite_audit.py`
