@@ -1,6 +1,6 @@
 from itertools import product
 
-from gc2.omega_gap import (
+from generative_calculus.gc2_omega import (
     Context,
     Edge,
     omega_bruteforce_augmentation,
