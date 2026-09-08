@@ -15,6 +15,7 @@
 - Arity-only translator lower bound: FALSIFIED for unrestricted compositional translators
 - Resource-accounted reconstruction complexity K_G: OPEN / highest-priority asymptotic route
 - Global shared-translator obstruction: **PROVED finite specialization**; all taskwise gaps may vanish while one shared translator fails due source-fibre collisions
+- Operational-trace lift: **PROVED restricted finite specialization** for full task/scale/error/vector-budget/I/A/L trace records; exact fibre criterion and `q_min=m`, `b_min=ceil(log2 m)` survive on a fixed feasible trace family. Mechanism remains KNOWN/IMPORTED; trace bookkeeping alone is not a breakthrough.
 - Exact auxiliary-interface theorem: **PROVED** in the finite shared-translator model: minimum interface alphabet size equals maximum collision multiplicity; fixed-width bits equal `ceil(log2 m)`
 - Reversibility Gap: **NAIVE METRIC ROUTE FALSIFIED** for the current nonlinear `Omega_G`; exact R/I cross-channel counterexample gives `Omega(x,z)=3 > Omega(x,y)+Omega(y,z)=2`. Symmetric round-trip cost remains a diagnostic only. Composition-compatible repair or explicit nonmetric interaction-surplus theory OPEN.
 - Exact finite-world experiments: ACTIVE; deterministic parity audit PASS through m=10
@@ -35,11 +36,11 @@
 Nothing in this ledger may be upgraded to PROVED or BREAKTHROUGH CANDIDATE without a proof artifact or reproducible computational/empirical evidence plus prior-art collision review.
 
 ## Immediate test order
-1. Lift the shared-translator collision theorem from static symbols to operational traces and full task-scale-error-vector-budget tuples, preserving explicit R/I/A/L augmentation costs.
+1. Couple translator-visible fibre refinement to explicit admissible R/I/A/L transformations. Price the minimum cost required to split conflicting fibres, rather than counting labels after a partition is fixed.
 2. Define a whole-envelope directed `Omega_G` requiring one globally realizable translator and test identity, monotonicity, composition behavior, invariance, and degeneracies. Do **not** assume a triangle inequality under a superadditive interaction penalty.
-3. Separate composition-compatible directed-distance structure from nonlinear cross-channel composition surplus; test whether either yields a nontrivial operational theorem beyond known directed-cost/irreversibility theory.
-4. Seek a finite/computable complete monotone family only for an explicitly structured translator class; otherwise seek an infinite separating family or dual/separation-oracle criterion. Do not pursue a universal finite family.
-5. Couple translator distinguishability to explicit vector-resource budgets to seek a quantitative lower bound not reducible to pure coding or classification.
+3. Seek a nontrivial lower bound linking minimum fibre-refinement cost to vector-resource budgets and information/action/rule acquisition, with explicit cross-channel interaction terms.
+4. Separate composition-compatible directed-distance structure from nonlinear cross-channel composition surplus; test whether either yields a nontrivial operational theorem beyond known directed-cost/irreversibility theory.
+5. Seek a finite/computable complete monotone family only for an explicitly structured translator class; otherwise seek an infinite separating family or dual/separation-oracle criterion. Do not pursue a universal finite family.
 6. Specify admissible world-transition operators before attempting a broader No-Free-Capability theorem.
 7. Define natural resource-restricted translator models and test whether K_G reduces to known circuit, communication, database, CSP, extension-complexity or simulation-preorder measures.
 8. Search whole-envelope matched pairs where fixed-task Pareto data and low-order summaries agree but global translation/reconstruction costs differ.
@@ -57,6 +58,7 @@ Nothing in this ledger may be upgraded to PROVED or BREAKTHROUGH CANDIDATE witho
 - `gc2/RESOURCE_INTERFACE_NONSUBSTITUTION_AUDIT_008.md`
 - `gc2/COMPLETE_MONOTONE_BOUNDARY_AUDIT_009.md`
 - `gc2/REVERSIBILITY_GAP_AUDIT_010.md`
+- `gc2/OPERATIONAL_TRACE_TRANSLATOR_AUDIT_011.md`
 - `gc2/tests/test_gc2_reversibility_gap.py`
 - `gc2/LOCAL_TO_GLOBAL_AUDIT_002.md`
 - `gc2/TEST_REPORT_003.md`
