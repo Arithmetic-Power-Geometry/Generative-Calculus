@@ -16,7 +16,7 @@
 - Resource-accounted reconstruction complexity K_G: OPEN / highest-priority asymptotic route
 - Global shared-translator obstruction: **PROVED finite specialization**; all taskwise gaps may vanish while one shared translator fails due source-fibre collisions
 - Exact auxiliary-interface theorem: **PROVED** in the finite shared-translator model: minimum interface alphabet size equals maximum collision multiplicity; fixed-width bits equal `ceil(log2 m)`
-- Reversibility Gap: OPEN (seeded by GC-I cyclic reversal example)
+- Reversibility Gap: **NAIVE METRIC ROUTE FALSIFIED** for the current nonlinear `Omega_G`; exact R/I cross-channel counterexample gives `Omega(x,z)=3 > Omega(x,y)+Omega(y,z)=2`. Symmetric round-trip cost remains a diagnostic only. Composition-compatible repair or explicit nonmetric interaction-surplus theory OPEN.
 - Exact finite-world experiments: ACTIVE; deterministic parity audit PASS through m=10
 - Budgeted-closure audit: PASS; 729 exhaustive 3-state worlds, 6,561 singleton-start/budget cases, 59,049 lifted start-set monotonicity inclusion checks; 0 violations after lifted-state repair
 - Omega_G audit: PASS; 576 three-state gated/resource worlds, 13,824 world/context cases; brute augmentation enumeration and exact path formula agree with 0 mismatches; zero-gap closure equivalence and context monotonicity show 0 violations
@@ -25,6 +25,7 @@
 - Composition-cost assumption audit: PASS; explicit superadditive counterexample shows subadditivity/control is necessary
 - Prior-art status of finite Omega_G: **high collision risk / not a breakthrough claim** because the resource component reduces to mature resource-constrained shortest-path/minimum-augmentation structure; Le Cam deficiency is also a neighboring directed-gap precedent
 - Prior-art status of global translator collision theorem: **KNOWN/IMPORTED mechanisms** (functional consistency, pigeonhole coding, repeated-feature classification error); GC-II novelty not established by this specialization alone
+- Prior-art status of reversibility diagnostics: **KNOWN/IMPORTED neighborhood**; forward/reverse conversion asymmetry and irreversibility are mature in thermodynamics and resource theories. No novelty claim from a simple forward/reverse sum or difference.
 - AI capability-accounting experiment: OPEN
 - Robotics validation: OPEN
 - Scientific-discovery validation: OPEN
@@ -35,13 +36,14 @@ Nothing in this ledger may be upgraded to PROVED or BREAKTHROUGH CANDIDATE witho
 
 ## Immediate test order
 1. Lift the shared-translator collision theorem from static symbols to operational traces and full task-scale-error-vector-budget tuples, preserving explicit R/I/A/L augmentation costs.
-2. Define a whole-envelope directed `Omega_G` requiring one globally realizable translator and test identity, monotonicity, composition/triangle behavior, invariance, and degeneracies.
-3. Seek a finite/computable complete monotone family only for an explicitly structured translator class; otherwise seek an infinite separating family or dual/separation-oracle criterion. Do not pursue a universal finite family.
-4. Couple translator distinguishability to explicit vector-resource budgets to seek a quantitative lower bound not reducible to pure coding or classification.
-5. Specify admissible world-transition operators before attempting a broader No-Free-Capability theorem.
-6. Define natural resource-restricted translator models and test whether K_G reduces to known circuit, communication, database, CSP, extension-complexity or simulation-preorder measures.
-7. Search whole-envelope matched pairs where fixed-task Pareto data and low-order summaries agree but global translation/reconstruction costs differ.
-8. Audit all candidate quantities against mature neighboring concepts, including catalysis and impossibility of finite complete monotone sets.
+2. Define a whole-envelope directed `Omega_G` requiring one globally realizable translator and test identity, monotonicity, composition behavior, invariance, and degeneracies. Do **not** assume a triangle inequality under a superadditive interaction penalty.
+3. Separate composition-compatible directed-distance structure from nonlinear cross-channel composition surplus; test whether either yields a nontrivial operational theorem beyond known directed-cost/irreversibility theory.
+4. Seek a finite/computable complete monotone family only for an explicitly structured translator class; otherwise seek an infinite separating family or dual/separation-oracle criterion. Do not pursue a universal finite family.
+5. Couple translator distinguishability to explicit vector-resource budgets to seek a quantitative lower bound not reducible to pure coding or classification.
+6. Specify admissible world-transition operators before attempting a broader No-Free-Capability theorem.
+7. Define natural resource-restricted translator models and test whether K_G reduces to known circuit, communication, database, CSP, extension-complexity or simulation-preorder measures.
+8. Search whole-envelope matched pairs where fixed-task Pareto data and low-order summaries agree but global translation/reconstruction costs differ.
+9. Audit all candidate quantities against mature neighboring concepts, including catalysis, irreversibility, directed deficiencies, and impossibility of finite complete monotone sets.
 
 ## Reproducible artifacts
 - `gc2/BUDGETED_CLOSURE_AUDIT_004.md`
@@ -54,6 +56,8 @@ Nothing in this ledger may be upgraded to PROVED or BREAKTHROUGH CANDIDATE witho
 - `gc2/tests/test_gc2_global_translator.py`
 - `gc2/RESOURCE_INTERFACE_NONSUBSTITUTION_AUDIT_008.md`
 - `gc2/COMPLETE_MONOTONE_BOUNDARY_AUDIT_009.md`
+- `gc2/REVERSIBILITY_GAP_AUDIT_010.md`
+- `gc2/tests/test_gc2_reversibility_gap.py`
 - `gc2/LOCAL_TO_GLOBAL_AUDIT_002.md`
 - `gc2/TEST_REPORT_003.md`
 - `gc2/tests/test_gc2_finite_audit.py`
