@@ -116,10 +116,12 @@ If a lifted state `(y,r)` is reachable from `(x,0)` and `(z,r')` is reachable fr
 
 - the explicit three-state falsification above;
 - exhaustive enumeration of all directed three-state worlds in which each non-loop edge is absent, cost 0, or cost 1 (`3^6 = 729` worlds);
-- all singleton starts;
-- budgets `B=0,1,2`;
-- checks of base reachability extensivity and budget monotonicity;
-- checks of lifted closure extensivity, monotonicity over all subset pairs of the reachable lifted vertex set, and idempotence.
+- all singleton starts and budgets `B=0,1,2`, giving `6,561` singleton-start/budget cases;
+- base reachability extensivity and budget monotonicity checks;
+- lifted closure extensivity and idempotence checks;
+- lifted monotonicity for **every inclusion pair among all 8 zero-expenditure start subsets** at each budget in every world, giving `59,049` inclusion checks.
+
+The exact audit completed with no violations in a local execution of the committed logic.
 
 The test uses only the Python standard library.
 
