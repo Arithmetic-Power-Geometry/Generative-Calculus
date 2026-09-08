@@ -1,0 +1,17 @@
+q,m,number_of_whole_envelopes,class_size,partition_complete,pairwise_disjoint,all_strict_projections_identical,minimum_distinguishing_projection_order,whole_label_information_bits
+2,2,2,2,True,True,True,2,1.0
+2,3,2,4,True,True,True,3,1.0
+2,4,2,8,True,True,True,4,1.0
+2,5,2,16,True,True,True,5,1.0
+3,2,3,3,True,True,True,2,1.584962500721156
+3,3,3,9,True,True,True,3,1.584962500721156
+3,4,3,27,True,True,True,4,1.584962500721156
+3,5,3,81,True,True,True,5,1.584962500721156
+4,2,4,4,True,True,True,2,2.0
+4,3,4,16,True,True,True,3,2.0
+4,4,4,64,True,True,True,4,2.0
+4,5,4,256,True,True,True,5,2.0
+5,2,5,5,True,True,True,2,2.321928094887362
+5,3,5,25,True,True,True,3,2.321928094887362
+5,4,5,125,True,True,True,4,2.321928094887362
+5,5,5,625,True,True,True,5,2.321928094887362
