@@ -1,10 +1,10 @@
 """Exact finite audit for GC-II budgeted operational closure.
 
-Standard-library only.  The test distinguishes naive base-state budgeted
-reachability from the correct lifted cumulative-expenditure closure.
+Standard-library only. Distinguishes naive base-state budgeted reachability
+from the correct lifted cumulative-expenditure closure.
 """
 
-from itertools import product, combinations
+from itertools import product
 
 
 def base_reach(n, edges, starts, budget):
@@ -22,19 +22,15 @@ def base_reach(n, edges, starts, budget):
     return set(best)
 
 
-def lifted_vertices(n, edges, budget):
-    """All legal lifted vertices (state, cumulative_spend)."""
-    return {(s, r) for s in range(n) for r in range(budget + 1)}
-
-
 def lifted_closure(n, edges, seed_vertices, budget):
     """Reachability closure on the fixed lifted graph."""
     out = set(seed_vertices)
     changed = True
     while changed:
         changed = False
+        snapshot = tuple(out)
         for u, v, c in edges:
-            for s, r in tuple(out):
+            for s, r in snapshot:
                 if s == u and r + c <= budget:
                     nxt = (v, r + c)
                     if nxt not in out:
@@ -43,10 +39,10 @@ def lifted_closure(n, edges, seed_vertices, budget):
     return out
 
 
-def all_subsets(items):
-    items = tuple(items)
-    for mask in range(1 << len(items)):
-        yield {items[i] for i in range(len(items)) if mask & (1 << i)}
+def base_start_subsets(n):
+    """All subsets of base states, represented at zero expenditure."""
+    for mask in range(1 << n):
+        yield {s for s in range(n) if mask & (1 << s)}
 
 
 def test_naive_base_state_idempotence_is_false():
@@ -62,7 +58,8 @@ def test_exhaustive_three_state_worlds():
     n = 3
     directed_pairs = [(u, v) for u in range(n) for v in range(n) if u != v]
     world_count = 0
-    lifted_checks = 0
+    singleton_budget_checks = 0
+    subset_monotonicity_checks = 0
 
     # Each directed non-loop edge: absent, cost 0, or cost 1.
     for coding in product((-1, 0, 1), repeat=len(directed_pairs)):
@@ -73,8 +70,8 @@ def test_exhaustive_three_state_worlds():
         ]
         world_count += 1
 
+        # Base reachability: extensivity and monotonicity in budget.
         for start in range(n):
-            # Base reachability is extensive and monotone in budget.
             prev = set()
             for budget in (0, 1, 2):
                 now = base_reach(n, edges, {start}, budget)
@@ -86,27 +83,31 @@ def test_exhaustive_three_state_worlds():
                 cl = lifted_closure(n, edges, seed, budget)
                 assert seed <= cl
                 assert lifted_closure(n, edges, cl, budget) == cl
-                lifted_checks += 1
+                singleton_budget_checks += 1
 
-                # Monotonicity is checked over all subsets of the actually
-                # reachable lifted closure. This is exhaustive for that set.
-                subsets = list(all_subsets(cl))
-                for x in subsets:
-                    cx = lifted_closure(n, edges, x, budget)
-                    assert x <= cx
-                    assert lifted_closure(n, edges, cx, budget) == cx
-                for i, x in enumerate(subsets):
-                    cx = lifted_closure(n, edges, x, budget)
-                    for y in subsets[i:]:
-                        if x <= y:
-                            cy = lifted_closure(n, edges, y, budget)
-                            assert cx <= cy
-                        if y <= x:
-                            cy = lifted_closure(n, edges, y, budget)
-                            assert cy <= cx
+        # Lifted closure monotonicity is checked exhaustively for all 8
+        # zero-expenditure start subsets and every inclusion pair, at each B.
+        starts = list(base_start_subsets(n))
+        for budget in (0, 1, 2):
+            closures = {
+                frozenset(x): lifted_closure(n, edges, {(s, 0) for s in x}, budget)
+                for x in starts
+            }
+            for x in starts:
+                cx = closures[frozenset(x)]
+                seed_x = {(s, 0) for s in x}
+                assert seed_x <= cx
+                assert lifted_closure(n, edges, cx, budget) == cx
+                for y in starts:
+                    if x <= y:
+                        assert cx <= closures[frozenset(y)]
+                        subset_monotonicity_checks += 1
 
     assert world_count == 3 ** 6 == 729
-    assert lifted_checks == 729 * 3 * 3
+    assert singleton_budget_checks == 729 * 3 * 3 == 6561
+    # Number is intentionally not hard-coded because it is a derived audit
+    # count; positivity ensures this block actually executed.
+    assert subset_monotonicity_checks > 0
 
 
 if __name__ == "__main__":
