@@ -16,5 +16,6 @@ Budgeted Reachable-Envelope Transport,PROVED,protocol concatenation with explici
 Turing Envelope Containment/Equality,IMPORTED/KNOWN,Rice/Turing undecidability specialization
 Exact Generator Realizability,IMPORTED/KNOWN,Nielsen-Chuang no-programming corollary
 Uniform additive translation deficit,IMPORTED/KNOWN,for a fixed task/frontier and common additive resource shift it is the classical binary additive epsilon indicator of multiobjective optimization
+Composition-blind frontier completeness,IMPORTED/KNOWN,C4 versus V4 gives identical fixed-task cost frontiers but no composition-preserving bijection; algebraic skeleton is elementary group/process theory
 Whole-envelope native quantitative prediction,OPEN,no same-input empirical law beyond neighboring frameworks yet established
-Translation-spectrum invariant beyond known simulation/resource orders,OPEN,uniform additive-shift candidate killed by equivalence to the additive epsilon indicator; any surviving invariant must use task/composition/scale structure beyond ordinary Pareto-front translation
+Translation-spectrum invariant beyond known simulation/resource orders,OPEN,uniform additive-shift candidate killed by equivalence to the additive epsilon indicator and composition-blind summaries fail on the C4/V4 kill test; any surviving invariant must use jointly realizable task/composition/scale structure beyond ordinary Pareto or standard algebraic process invariants
