@@ -19,6 +19,8 @@
 - Exact auxiliary-interface theorem: **PROVED** in the finite shared-translator model: minimum interface alphabet size equals maximum collision multiplicity; fixed-width bits equal `ceil(log2 m)`
 - Reversibility Gap: **NAIVE METRIC ROUTE FALSIFIED** for the current nonlinear `Omega_G`; exact R/I cross-channel counterexample gives `Omega(x,z)=3 > Omega(x,y)+Omega(y,z)=2`. Symmetric round-trip cost remains a diagnostic only. Composition-compatible repair or explicit nonmetric interaction-surplus theory OPEN.
 - Endpoint-only reversibility accounting: **FALSIFIED as complete in a finite labelled-state specialization**. Two worlds have the identical directional endpoint-cost pair `(1,1)` and return to the same external endpoint label `X`, yet one preserves and the other destroys a one-step future capability after `f;r`. Any reversibility classifier depending only on `(Omega_G(X->Y), Omega_G(Y->X))` therefore fails on this class. Trace/future-capability residual remains OPEN; mechanism is KNOWN/IMPORTED neighborhood.
+- Future label-set signatures: **FALSIFIED as complete**. Equal reachable label sets at every horizon can hide different action/interface identities; increasing horizon cannot repair the collision.
+- Action/cost trace-set signatures under branching: **FALSIFIED as complete**. Audit 025 gives a finite nondeterministic pair with identical complete action/cost trace language `{epsilon,a,ab,ac}` but different robust post-`a` capability: delayed choice preserves `{b,c}`, early nondeterministic commitment guarantees neither. Whole-envelope equivalence must retain branching conditional structure, not only flattened traces. Mechanism is KNOWN/IMPORTED from the linear-time/branching-time spectrum and weighted-transition semantics.
 - Order-sensitive accounting: **PROVED boundary theorem / decisive falsification**. Equal aggregate augmentation vectors need not imply equal capability under noncommuting state-dependent transformations. Pairwise commutation plus path-independent accounting restores aggregate sufficiency. Mechanism is KNOWN/IMPORTED neighborhood (planning preconditions, affordances, transition dependence, partial-order reduction); no novelty claim.
 - Exact finite-world experiments: ACTIVE; deterministic parity audit PASS through m=10
 - Budgeted-closure audit: PASS; 729 exhaustive 3-state worlds, 6,561 singleton-start/budget cases, 59,049 lifted start-set monotonicity inclusion checks; 0 violations after lifted-state repair
@@ -38,16 +40,16 @@
 Nothing in this ledger may be upgraded to PROVED or BREAKTHROUGH CANDIDATE without a proof artifact or reproducible computational/empirical evidence plus prior-art collision review.
 
 ## Immediate test order
-1. Replace aggregate-only accounting by an ordered augmentation trace functional, then seek the coarsest operational equivalence relation on traces under which capability and cost are invariant.
-2. Couple translator-visible fibre refinement to explicit admissible R/I/A/L transformations whose availability and effects may change with state. Price the minimum ordered cost required to split conflicting fibres.
-3. Define a whole-envelope directed `Omega_G` requiring one globally realizable translator and test identity, monotonicity, composition behavior, invariance, degeneracies, and order sensitivity. Do **not** assume a triangle inequality under a superadditive interaction penalty.
-4. Seek a nontrivial lower bound linking minimum dynamic fibre-refinement cost to vector-resource budgets and information/action/rule acquisition, with explicit cross-channel interaction and order terms.
-5. Characterize commuting/path-independent subclasses where an aggregate `F(Delta)` theorem is valid; collision-check against trace monoids, partial-order reduction, planning, Petri nets and resource theories.
-6. Seek a finite/computable complete monotone family only for an explicitly structured translator class; otherwise seek an infinite separating family or dual/separation-oracle criterion. Do not pursue a universal finite family.
-7. Specify admissible world-transition operators before attempting a broader No-Free-Capability theorem.
-8. Define natural resource-restricted translator models and test whether K_G reduces to known circuit, communication, database, CSP, extension-complexity or simulation-preorder measures.
-9. Search whole-envelope matched pairs where fixed-task Pareto data and low-order summaries agree but global translation/reconstruction costs differ.
-10. Audit all candidate quantities against mature neighboring concepts, including catalysis, irreversibility, directed deficiencies, planning, affordances and impossibility of finite complete monotone sets.
+1. Define a budget-indexed branching capability relation on augmented states `(s,B,I,A,L)` with explicit task-scale-error observations. Use adversarial/robust and existential semantics separately; do not conflate them.
+2. Test whether a directed whole-envelope distortion can be represented by a simulation/game value rather than a flattened trace distance; collision-check against quantitative bisimulation, energy games, alternating simulation, interface automata, and robust control.
+3. Couple translator-visible fibre refinement to explicit admissible R/I/A/L transformations whose availability and effects may change with state. Price the minimum ordered cost required to split conflicting fibres.
+4. Define a whole-envelope directed `Omega_G` requiring one globally realizable translator and test identity, monotonicity, composition behavior, invariance, degeneracies, order sensitivity, and branching sensitivity. Do **not** assume a triangle inequality under a superadditive interaction penalty.
+5. Seek a nontrivial lower bound linking minimum dynamic fibre-refinement cost to vector-resource budgets and information/action/rule acquisition, with explicit cross-channel interaction and order terms.
+6. Characterize commuting/path-independent subclasses where an aggregate `F(Delta)` theorem is valid; collision-check against trace monoids, partial-order reduction, planning, Petri nets and resource theories.
+7. Seek a finite/computable complete monotone family only for an explicitly structured translator class; otherwise seek an infinite separating family or dual/separation-oracle criterion. Do not pursue a universal finite family.
+8. Specify admissible world-transition operators before attempting a broader No-Free-Capability theorem.
+9. Define natural resource-restricted translator models and test whether K_G reduces to known circuit, communication, database, CSP, extension-complexity or simulation-preorder measures.
+10. Search whole-envelope matched pairs where fixed-task Pareto data and low-order summaries agree but global translation/reconstruction costs differ.
 
 ## Reproducible artifacts
 - `gc2/BUDGETED_CLOSURE_AUDIT_004.md`
@@ -66,8 +68,12 @@ Nothing in this ledger may be upgraded to PROVED or BREAKTHROUGH CANDIDATE witho
 - `gc2/ENDOGENOUS_FEATURE_POLICY_AUDIT_013.md`
 - `gc2/ORDER_SENSITIVE_ACCOUNTING_AUDIT_014.md`
 - `gc2/ENDPOINT_REVERSIBILITY_INSUFFICIENCY_AUDIT_019.md`
+- `gc2/FUTURE_LABEL_SIGNATURE_INCOMPLETENESS_AUDIT_024.md`
+- `gc2/BRANCHING_TRACE_INCOMPLETENESS_AUDIT_025.md`
 - `gc2/trace_reversibility.py`
+- `gc2/branching_capability.py`
 - `gc2/tests/test_gc2_trace_reversibility.py`
+- `gc2/tests/test_gc2_branching_capability.py`
 - `gc2/tests/test_gc2_order_sensitive_accounting.py`
 - `gc2/tests/test_gc2_reversibility_gap.py`
 - `gc2/LOCAL_TO_GLOBAL_AUDIT_002.md`
