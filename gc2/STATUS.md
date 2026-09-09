@@ -18,6 +18,7 @@
 - Operational-trace lift: **PROVED restricted finite specialization** for full task/scale/error/vector-budget/I/A/L trace records; exact fibre criterion and `q_min=m`, `b_min=ceil(log2 m)` survive on a fixed feasible trace family. Mechanism remains KNOWN/IMPORTED; trace bookkeeping alone is not a breakthrough.
 - Exact auxiliary-interface theorem: **PROVED** in the finite shared-translator model: minimum interface alphabet size equals maximum collision multiplicity; fixed-width bits equal `ceil(log2 m)`
 - Reversibility Gap: **NAIVE METRIC ROUTE FALSIFIED** for the current nonlinear `Omega_G`; exact R/I cross-channel counterexample gives `Omega(x,z)=3 > Omega(x,y)+Omega(y,z)=2`. Symmetric round-trip cost remains a diagnostic only. Composition-compatible repair or explicit nonmetric interaction-surplus theory OPEN.
+- Endpoint-only reversibility accounting: **FALSIFIED as complete in a finite labelled-state specialization**. Two worlds have the identical directional endpoint-cost pair `(1,1)` and return to the same external endpoint label `X`, yet one preserves and the other destroys a one-step future capability after `f;r`. Any reversibility classifier depending only on `(Omega_G(X->Y), Omega_G(Y->X))` therefore fails on this class. Trace/future-capability residual remains OPEN; mechanism is KNOWN/IMPORTED neighborhood.
 - Order-sensitive accounting: **PROVED boundary theorem / decisive falsification**. Equal aggregate augmentation vectors need not imply equal capability under noncommuting state-dependent transformations. Pairwise commutation plus path-independent accounting restores aggregate sufficiency. Mechanism is KNOWN/IMPORTED neighborhood (planning preconditions, affordances, transition dependence, partial-order reduction); no novelty claim.
 - Exact finite-world experiments: ACTIVE; deterministic parity audit PASS through m=10
 - Budgeted-closure audit: PASS; 729 exhaustive 3-state worlds, 6,561 singleton-start/budget cases, 59,049 lifted start-set monotonicity inclusion checks; 0 violations after lifted-state repair
@@ -27,7 +28,7 @@
 - Composition-cost assumption audit: PASS; explicit superadditive counterexample shows subadditivity/control is necessary
 - Prior-art status of finite Omega_G: **high collision risk / not a breakthrough claim** because the resource component reduces to mature resource-constrained shortest-path/minimum-augmentation structure; Le Cam deficiency is also a neighboring directed-gap precedent
 - Prior-art status of global translator collision theorem: **KNOWN/IMPORTED mechanisms** (functional consistency, pigeonhole coding, repeated-feature classification error); GC-II novelty not established by this specialization alone
-- Prior-art status of reversibility diagnostics: **KNOWN/IMPORTED neighborhood**; forward/reverse conversion asymmetry and irreversibility are mature in thermodynamics and resource theories. No novelty claim from a simple forward/reverse sum or difference.
+- Prior-art status of reversibility diagnostics: **KNOWN/IMPORTED neighborhood**; forward/reverse conversion asymmetry and irreversibility are mature in thermodynamics and resource theories. Endpoint equality also fails to guarantee future-behavior restoration; state equivalence/bisimulation/coarse-graining are neighboring mature mechanisms. No novelty claim from endpoint-only costs.
 - AI capability-accounting experiment: OPEN
 - Robotics validation: OPEN
 - Scientific-discovery validation: OPEN
@@ -64,6 +65,9 @@ Nothing in this ledger may be upgraded to PROVED or BREAKTHROUGH CANDIDATE witho
 - `gc2/FIBRE_REFINEMENT_CLOSURE_ESCAPE_AUDIT_012.md`
 - `gc2/ENDOGENOUS_FEATURE_POLICY_AUDIT_013.md`
 - `gc2/ORDER_SENSITIVE_ACCOUNTING_AUDIT_014.md`
+- `gc2/ENDPOINT_REVERSIBILITY_INSUFFICIENCY_AUDIT_019.md`
+- `gc2/trace_reversibility.py`
+- `gc2/tests/test_gc2_trace_reversibility.py`
 - `gc2/tests/test_gc2_order_sensitive_accounting.py`
 - `gc2/tests/test_gc2_reversibility_gap.py`
 - `gc2/LOCAL_TO_GLOBAL_AUDIT_002.md`
