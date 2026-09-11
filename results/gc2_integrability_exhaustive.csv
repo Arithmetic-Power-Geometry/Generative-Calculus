@@ -1,0 +1,4 @@
+n,directed_edges,assignments_checked,integrable_assignments,nonintegrable_assignments,defect_histogram
+2,2,9,3,6,0:3;1:4;2:2
+3,6,729,7,722,0:7;1:250;2:382;3:90
+4,12,531441,15,531426,0:15;1:58836;2:312210;3:160380
