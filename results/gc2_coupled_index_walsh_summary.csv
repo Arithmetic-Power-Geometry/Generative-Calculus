@@ -1,0 +1,10 @@
+metric,value
+n_variables,4
+functions_enumerated,65536
+reconstruction_failures,0
+pure_full_order_functions,2
+max_interaction_degree_0,2
+max_interaction_degree_1,8
+max_interaction_degree_2,212
+max_interaction_degree_3,12648
+max_interaction_degree_4,52666
