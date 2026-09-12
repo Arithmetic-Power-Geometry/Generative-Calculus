@@ -1,0 +1,6 @@
+n,even_size,odd_size,proper_projection_subsets_checked,projection_mismatches,global_sets_equal,global_intersection_size
+3,4,4,7,0,False,0
+4,8,8,15,0,False,0
+5,16,16,31,0,False,0
+6,32,32,63,0,False,0
+7,64,64,127,0,False,0
