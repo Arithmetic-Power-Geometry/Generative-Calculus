@@ -1,0 +1,10 @@
+metric,value
+rule_universe_size,4
+grammar_masks,16
+object_states,2
+action_kinds,2
+rule_ids_per_action,4
+exact_transition_checks,256
+mismatches,0
+status,NUMERICALLY_SUPPORTED
+interpretation,Consistency check of Audit 088 compilation theorem; not novelty evidence
