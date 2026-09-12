@@ -1,0 +1,12 @@
+{
+  "state_count": 3,
+  "signal_count": 3,
+  "binary_tasks": 8,
+  "deterministic_encoders": 27,
+  "deterministic_garblings": 27,
+  "decision_checks": 5832,
+  "data_processing_violations": 0,
+  "strict_decision_losses": 864,
+  "maximum_accuracy_loss": 0.33333333333333337,
+  "interpretation": "Deterministic post-processing never improves optimal binary decision accuracy in this exhaustive finite audit. This is a consistency check for Blackwell/data-processing monotonicity, not evidence of GC-II novelty."
+}
