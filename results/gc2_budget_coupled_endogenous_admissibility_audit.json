@@ -1,0 +1,20 @@
+{
+  "budgets": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "horizons": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "interpretation": "Finite endogenous admissibility plus a shared consumable budget is exactly represented by fixed-alphabet reachability on augmented state (q, mode, remaining_budget).",
+  "mismatches": 0,
+  "start_budget_horizon_checks": 20480,
+  "systems": 256,
+  "systems_with_endogenous_admissibility_change": 224
+}
