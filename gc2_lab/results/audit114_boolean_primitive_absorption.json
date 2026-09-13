@@ -1,0 +1,11 @@
+{
+  "universe": "all Boolean functions f:{0,1}^2->{0,1}",
+  "total_functions": 16,
+  "internal_library": ["x", "y", "0", "1", "AND", "OR"],
+  "internal_extensional_closure_size": 6,
+  "outside_internal_closure": 10,
+  "external_tabular_metalanguage_bits_per_function": 4,
+  "all_outside_functions_finitely_describable_externally": 10,
+  "truth_tables_outside": ["0010", "0100", "0110", "1000", "1001", "1010", "1011", "1100", "1101", "1110"],
+  "claim_checked": "Internal non-definability does not imply external indescribability; each excluded 2-input Boolean primitive has a 4-bit truth-table description in the fixed external metalanguage."
+}
