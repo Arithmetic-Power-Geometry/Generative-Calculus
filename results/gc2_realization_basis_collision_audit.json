@@ -1,0 +1,25 @@
+{
+  "functions": 16,
+  "different_min_costs": 8,
+  "max_AON_cost": 4,
+  "max_NAND_cost": 5,
+  "rows": [
+    {"truth_table":"0000","AON_cost":0,"NAND_cost":0,"equal":true},
+    {"truth_table":"0001","AON_cost":2,"NAND_cost":4,"equal":false},
+    {"truth_table":"0010","AON_cost":2,"NAND_cost":3,"equal":false},
+    {"truth_table":"0011","AON_cost":1,"NAND_cost":1,"equal":true},
+    {"truth_table":"0100","AON_cost":2,"NAND_cost":3,"equal":false},
+    {"truth_table":"0101","AON_cost":1,"NAND_cost":1,"equal":true},
+    {"truth_table":"0110","AON_cost":4,"NAND_cost":5,"equal":false},
+    {"truth_table":"0111","AON_cost":2,"NAND_cost":1,"equal":false},
+    {"truth_table":"1000","AON_cost":1,"NAND_cost":2,"equal":false},
+    {"truth_table":"1001","AON_cost":4,"NAND_cost":5,"equal":false},
+    {"truth_table":"1010","AON_cost":0,"NAND_cost":0,"equal":true},
+    {"truth_table":"1011","AON_cost":2,"NAND_cost":2,"equal":true},
+    {"truth_table":"1100","AON_cost":0,"NAND_cost":0,"equal":true},
+    {"truth_table":"1101","AON_cost":2,"NAND_cost":2,"equal":true},
+    {"truth_table":"1110","AON_cost":1,"NAND_cost":3,"equal":false},
+    {"truth_table":"1111","AON_cost":0,"NAND_cost":0,"equal":true}
+  ],
+  "interpretation": "Semantic function is fixed, but exact minimum realization cost depends on the admissible primitive basis/cost model."
+}
