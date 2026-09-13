@@ -1,0 +1,9 @@
+{
+  "factually_equivalent_pairs": 8,
+  "fully_interventionally_equivalent_among_factual_pairs": 4,
+  "intervention_separated_among_factual_pairs": 4,
+  "mechanisms": 4,
+  "ordered_pairs": 16,
+  "signature_criterion_mismatches": 0,
+  "status": "PASS"
+}
