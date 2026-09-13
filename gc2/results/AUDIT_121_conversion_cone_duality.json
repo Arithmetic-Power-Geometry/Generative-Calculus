@@ -1,0 +1,16 @@
+{
+  "audit": 121,
+  "generator_coordinate_bound": 3,
+  "test_point_coordinate_bound": 5,
+  "primitive_vectors": 32,
+  "pointed_2d_cones": 480,
+  "test_points_per_cone": 121,
+  "total_membership_cases": 58080,
+  "interior_cases": 13320,
+  "boundary_cases": 2640,
+  "outside_cases": 42120,
+  "primal_dual_mismatches": 0,
+  "first_mismatches": [],
+  "arithmetic": "exact_integer",
+  "claim_scope": "2D pointed polyhedral cones; computational regression only"
+}
