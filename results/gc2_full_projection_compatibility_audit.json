@@ -1,0 +1,10 @@
+{
+  "ambient_dimension": 4,
+  "even_relation_size": 8,
+  "odd_relation_size": 8,
+  "full_relations_equal": false,
+  "all_proper_coordinate_projections_equal": true,
+  "number_of_proper_projection_checks": 14,
+  "proper_projection_mismatches": 0,
+  "interpretation": "Even- and odd-parity feasible relations on four binary typed coordinates agree on every proper coordinate projection but differ globally."
+}
