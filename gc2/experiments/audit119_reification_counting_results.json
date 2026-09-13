@@ -1,0 +1,8 @@
+{
+  "audit": 119,
+  "semantic_family_sizes_checked": 64,
+  "length_cases_checked": 512,
+  "violations": 0,
+  "max_M": 64,
+  "claim": "fixed-length injective binary reification has optimum ceil(log2 M)"
+}
