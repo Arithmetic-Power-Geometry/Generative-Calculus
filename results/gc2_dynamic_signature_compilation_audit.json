@@ -1,0 +1,43 @@
+{
+  "audit": 118,
+  "claim_tested": "bounded dynamic signatures compile exactly into fixed-signature state machines",
+  "families": [
+    {
+      "action_universe_size": 1,
+      "compiled_states": 2,
+      "control_states": 1,
+      "enabled_rule_slots": 1,
+      "history_semantics_mismatches": 0,
+      "horizon": 5,
+      "machines_exhaustively_enumerated": 2,
+      "start_state_checks": 4
+    },
+    {
+      "action_universe_size": 1,
+      "compiled_states": 4,
+      "control_states": 2,
+      "enabled_rule_slots": 2,
+      "history_semantics_mismatches": 0,
+      "horizon": 5,
+      "machines_exhaustively_enumerated": 16,
+      "start_state_checks": 64
+    },
+    {
+      "action_universe_size": 2,
+      "compiled_states": 4,
+      "control_states": 1,
+      "enabled_rule_slots": 4,
+      "history_semantics_mismatches": 0,
+      "horizon": 5,
+      "machines_exhaustively_enumerated": 256,
+      "start_state_checks": 1024
+    }
+  ],
+  "scope_note": "This experiment validates the finite bounded-vocabulary compilation only; it does not prove claims about genuinely unbounded fresh semantic primitives.",
+  "status": "SUPPORTED_BY_EXHAUSTIVE_FINITE_TEST",
+  "totals": {
+    "history_semantics_mismatches": 0,
+    "machines_exhaustively_enumerated": 274,
+    "start_state_checks": 1092
+  }
+}
