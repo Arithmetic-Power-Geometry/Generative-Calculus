@@ -1,0 +1,19 @@
+{
+  "context_closure_failures": 0,
+  "context_composition_checks": 9,
+  "contexts": 3,
+  "congruence_failures": 0,
+  "ordered_state_pair_checks": 9,
+  "standalone_witness": {
+    "contextually_equivalent": false,
+    "p": 0,
+    "q": 1,
+    "reveal_outputs": [
+      0,
+      1
+    ],
+    "standalone_equivalent": true
+  },
+  "states": 3,
+  "status": "PASS"
+}
