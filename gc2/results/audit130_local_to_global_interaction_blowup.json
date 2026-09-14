@@ -1,0 +1,15 @@
+{
+  "audit": 130,
+  "construction": "serial_binary_AND_chain",
+  "n_min": 2,
+  "n_max": 16,
+  "total_assignments_checked": 131068,
+  "composition_mismatches": 0,
+  "local_interaction_order_max": 2,
+  "interface_width_bits": 1,
+  "typed_transition_cost": 0,
+  "maximum_observed_global_interaction_order": 16,
+  "status": "PASS",
+  "theorem_status": "PROVED",
+  "claim": "No bound on global interaction order can depend only on local interaction order, interface width, and a zero-cost budget parameter while remaining independent of composition depth/network size."
+}
