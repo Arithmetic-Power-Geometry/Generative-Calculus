@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "alpha_C5": 2,
+  "alpha_C5_strong_square": 5,
+  "product_baseline": 4,
+  "composition_ratio": 1.25,
+  "composition_gap_bits": 0.32192809488736235,
+  "strong_square_vertices": 25,
+  "strong_square_edges": 100,
+  "independent_6_sets": 0,
+  "witness_5": [[0,0],[1,2],[2,4],[3,1],[4,3]],
+  "verification": "Exact enumeration: witness independent 5-set found; all C(25,6)=177100 six-subsets checked and none independent. Since every independent set of size >=6 contains an independent 6-subset, alpha(C5 strong-square)=5.",
+  "interpretation": "Positive distinguishability synergy under composition occurs in classical zero-error confusability theory; it is not by itself a GC-II novelty invariant."
+}
