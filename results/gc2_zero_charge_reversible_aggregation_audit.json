@@ -1,0 +1,18 @@
+{
+  "audit": 132,
+  "states_checked": 8,
+  "ancilla_cases_checked": 4,
+  "bijective": true,
+  "involutive": true,
+  "and_mismatches": 0,
+  "assigned_charge": 0,
+  "capability_expands": true,
+  "positive_charge_forced_by_bare_operational_closure": false,
+  "status": "PASS",
+  "cases": [
+    {"x":0,"y":0,"out":[0,0,0],"expected_and":0,"ok":true},
+    {"x":0,"y":1,"out":[0,1,0],"expected_and":0,"ok":true},
+    {"x":1,"y":0,"out":[1,0,0],"expected_and":0,"ok":true},
+    {"x":1,"y":1,"out":[1,1,1],"expected_and":1,"ok":true}
+  ]
+}
