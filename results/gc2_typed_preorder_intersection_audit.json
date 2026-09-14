@@ -1,0 +1,18 @@
+{
+  "audit": 134,
+  "deterministic_maps": 4,
+  "distinct_intersection_monoids_seen": 6,
+  "intersection_closure_failures": 0,
+  "monoid_sizes": [
+    1,
+    2,
+    2,
+    2,
+    3,
+    4
+  ],
+  "ordered_pair_intersections_checked": 36,
+  "ordered_triple_intersections_checked": 216,
+  "states": 2,
+  "transformation_monoids": 6
+}
