@@ -1,0 +1,22 @@
+{
+  "audit": 138,
+  "claim_checked": "Exact N-class discrimination via S persistent states and Q side-information transcripts exists iff N <= S*Q.",
+  "ranges": {
+    "N": [1, 64],
+    "S": [1, 64],
+    "Q": [1, 64]
+  },
+  "total_parameter_triples": 262144,
+  "feasible_triples": 254320,
+  "infeasible_triples": 7824,
+  "criterion_violations": 0,
+  "tight_triples": 280,
+  "max_log_form_violation_bits": 0.0,
+  "status": "PASS",
+  "interpretation": [
+    "The exact finite counting frontier is multiplicative: N <= S*Q.",
+    "In bits: log2 N <= log2 S + log2 Q.",
+    "Tight encodings show no universally positive extra nonlinear interaction penalty can be required without additional structure.",
+    "This is a counting/coding result and is not claimed as novel GC mathematics."
+  ]
+}
