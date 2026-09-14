@@ -1,0 +1,31 @@
+{
+  "audit": 129,
+  "m": 6,
+  "k": 2,
+  "candidate_witnesses": 21,
+  "candidate_families_before_antichain_filter": 2097152,
+  "bounded_rank_antichains": 40069,
+  "reconstruction_failures": 0,
+  "interaction_order_violations": 0,
+  "maximum_certificate_size": 15,
+  "binom_m_k": 15,
+  "size_distribution": {
+    "0": 1,
+    "1": 21,
+    "2": 180,
+    "3": 835,
+    "4": 2385,
+    "5": 4644,
+    "6": 6763,
+    "7": 7785,
+    "8": 7170,
+    "9": 5275,
+    "10": 3063,
+    "11": 1371,
+    "12": 455,
+    "13": 105,
+    "14": 15,
+    "15": 1
+  },
+  "status": "PASS"
+}
