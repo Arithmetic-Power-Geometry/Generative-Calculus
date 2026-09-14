@@ -1,0 +1,17 @@
+{
+  "audit": 131,
+  "theorem": "charged_composition_support_bound",
+  "parameter_ranges": {
+    "k": [2, 6],
+    "c": [1, 5],
+    "g": [0, 30],
+    "B": [0, 150]
+  },
+  "total_feasible_budget_cases": 82150,
+  "support_bound_violations": 0,
+  "tight_budget_witness_cases": 775,
+  "inverse_budget_checks": 117025,
+  "inverse_budget_violations": 0,
+  "status": "PASS",
+  "note": "This regression checks arithmetic and tight tree witnesses only. The theorem itself is proved combinatorially in Audit 131."
+}
