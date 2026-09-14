@@ -1,0 +1,17 @@
+{
+  "audit": 139,
+  "status": "PROVED_BOUNDARY_IMPORTED_KNOWN",
+  "claim": "Exact identification requires N <= S*Q*b^A; equivalently log2 N <= log2 S + log2 Q + A log2 b.",
+  "ranges": {
+    "S": [1, 16],
+    "Q": [1, 16],
+    "b": [1, 8],
+    "A": [0, 6]
+  },
+  "checks": 57287,
+  "feasible": 42951,
+  "infeasible": 14336,
+  "tight": 14336,
+  "violations": 0,
+  "max_capacity": 67108864
+}
