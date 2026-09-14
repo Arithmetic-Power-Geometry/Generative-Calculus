@@ -1,0 +1,26 @@
+{
+  "audit": 137,
+  "family": "L={0^n1^n}",
+  "interpretation": "I_external excludes continuation-sufficient persistent memory; if memory is charged inside I, the no-go becomes a memory lower bound instead.",
+  "rows": [
+    {"K": 1, "continuation_classes_lower_bound": 2, "memory_bits_lower_bound": 1, "endpoint_delta_R": 0, "endpoint_delta_I_external": 0, "endpoint_delta_A": 0, "endpoint_delta_L": 0, "pair_checks": 1, "failures": 0},
+    {"K": 2, "continuation_classes_lower_bound": 3, "memory_bits_lower_bound": 2, "endpoint_delta_R": 0, "endpoint_delta_I_external": 0, "endpoint_delta_A": 0, "endpoint_delta_L": 0, "pair_checks": 3, "failures": 0},
+    {"K": 4, "continuation_classes_lower_bound": 5, "memory_bits_lower_bound": 3, "endpoint_delta_R": 0, "endpoint_delta_I_external": 0, "endpoint_delta_A": 0, "endpoint_delta_L": 0, "pair_checks": 10, "failures": 0},
+    {"K": 8, "continuation_classes_lower_bound": 9, "memory_bits_lower_bound": 4, "endpoint_delta_R": 0, "endpoint_delta_I_external": 0, "endpoint_delta_A": 0, "endpoint_delta_L": 0, "pair_checks": 36, "failures": 0},
+    {"K": 16, "continuation_classes_lower_bound": 17, "memory_bits_lower_bound": 5, "endpoint_delta_R": 0, "endpoint_delta_I_external": 0, "endpoint_delta_A": 0, "endpoint_delta_L": 0, "pair_checks": 136, "failures": 0},
+    {"K": 32, "continuation_classes_lower_bound": 33, "memory_bits_lower_bound": 6, "endpoint_delta_R": 0, "endpoint_delta_I_external": 0, "endpoint_delta_A": 0, "endpoint_delta_L": 0, "pair_checks": 528, "failures": 0},
+    {"K": 64, "continuation_classes_lower_bound": 65, "memory_bits_lower_bound": 7, "endpoint_delta_R": 0, "endpoint_delta_I_external": 0, "endpoint_delta_A": 0, "endpoint_delta_L": 0, "pair_checks": 2080, "failures": 0},
+    {"K": 128, "continuation_classes_lower_bound": 129, "memory_bits_lower_bound": 8, "endpoint_delta_R": 0, "endpoint_delta_I_external": 0, "endpoint_delta_A": 0, "endpoint_delta_L": 0, "pair_checks": 8256, "failures": 0},
+    {"K": 256, "continuation_classes_lower_bound": 257, "memory_bits_lower_bound": 9, "endpoint_delta_R": 0, "endpoint_delta_I_external": 0, "endpoint_delta_A": 0, "endpoint_delta_L": 0, "pair_checks": 32896, "failures": 0}
+  ],
+  "total_pair_checks": 43946,
+  "total_failures": 0,
+  "max_K": 256,
+  "max_classes_lower_bound": 257,
+  "max_memory_bits_lower_bound": 9,
+  "status": {
+    "endpoint_only_finite_bound": "FALSIFIED",
+    "continuation_memory_lower_bound": "PROVED",
+    "novelty": "IMPORTED/KNOWN"
+  }
+}
