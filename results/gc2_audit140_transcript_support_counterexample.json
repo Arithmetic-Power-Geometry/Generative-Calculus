@@ -1,0 +1,25 @@
+{
+  "audit": 140,
+  "status": "FALSIFIED_RAW_SUPPORT_DEFICIT",
+  "claim_falsified": "D_G = log2(nominal transcript capacity) - log2(global realizable transcript support) is sufficient to measure exact task capability.",
+  "sensor_count": 16,
+  "maximal_global_support_count": 14,
+  "maximal_support_exact_count": 2,
+  "maximal_support_inexact_count": 12,
+  "same_D_zero_both_exact_and_inexact": true,
+  "informative_witness": {
+    "outputs": [0, 0, 1, 1],
+    "class_supports": {"0": [0], "1": [1]},
+    "global_support_size": 2,
+    "raw_deficit_bits": 0.0,
+    "exact_identifiable": true
+  },
+  "uninformative_or_confounded_witness": {
+    "outputs": [0, 0, 0, 1],
+    "class_supports": {"0": [0], "1": [0, 1]},
+    "global_support_size": 2,
+    "raw_deficit_bits": 0.0,
+    "exact_identifiable": false
+  },
+  "violations": 0
+}
