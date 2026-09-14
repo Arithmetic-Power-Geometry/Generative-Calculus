@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "q_range": [2, 6],
+  "n_range": [2, 7],
+  "parameter_cases": 30,
+  "projection_checks": 540,
+  "local_view_equality_checks": 90,
+  "pairwise_disjointness_checks": 210,
+  "join_checks": 30,
+  "total_checks": 870,
+  "violations": [],
+  "largest_case": {
+    "q": 6,
+    "n": 7,
+    "global_universe": 279936,
+    "one_world_size": 46656,
+    "join_of_proper_projections": 279936,
+    "spurious_factor": 6.0,
+    "missing_information_bits": 2.584962500721156
+  },
+  "interpretation": "All tested q-ary residue worlds have identical complete families of (n-1)-coordinate projections while remaining pairwise disjoint globally. The natural join of those proper projections is the full q^n cube, a factor-q enlargement over any true residue world. Therefore no deterministic or randomized exact compiler receiving only those local projections can identify the global residue world without extra information; at least log2(q) bits of world identity are information-theoretically necessary, or ceil(log2(q)) fixed binary bits."
+}
