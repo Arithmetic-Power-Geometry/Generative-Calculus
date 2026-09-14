@@ -1,0 +1,11 @@
+{
+  "language": "{0^n 1^n : n >= 0}",
+  "max_horizon_checked": 128,
+  "horizons_checked": 128,
+  "total_pair_checks": 357760,
+  "total_failures": 0,
+  "largest_exact_state_lower_bound_checked": 129,
+  "analytic_statement": "prefixes 0^i are pairwise future-distinguishable because suffix 1^i accepts 0^i1^i and rejects 0^j1^i for every j>i",
+  "consequence": "no finite augmented-state compiler can preserve exact future admissibility for all histories of this operational language",
+  "theorem_status": "PROVED analytically; finite regression PASS"
+}
