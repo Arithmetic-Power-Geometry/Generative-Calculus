@@ -1,0 +1,9 @@
+{
+  "audit": 144,
+  "history_state_semantics_mismatches": 0,
+  "horizon": 4,
+  "rules_exhaustively_enumerated": 512,
+  "start_state_checks": 8192,
+  "status": "PASS",
+  "scope": "Finite regression for implementation; general fixed-interpreter compilation is proved separately by induction."
+}
