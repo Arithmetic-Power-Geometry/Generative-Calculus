@@ -1,0 +1,9 @@
+{
+  "states": 2,
+  "deterministic_maps": 4,
+  "transformation_monoids": 6,
+  "ordered_two_task_assignments": 36,
+  "native_vs_tagged_comparisons": 144,
+  "mismatches": 0,
+  "status": "PASS"
+}
