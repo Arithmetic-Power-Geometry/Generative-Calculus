@@ -1,0 +1,11 @@
+{
+  "distinct_unordered_pairs": 120,
+  "falsely_complete_proper_subsets": 0,
+  "fixed_length_bits_required_by_counting": 4,
+  "m": 4,
+  "minimum_collisions_any_proper_subset": 8,
+  "proper_coordinate_subsets": 15,
+  "signatures": 16,
+  "status": "PASS",
+  "total_subset_pair_collisions": 520
+}
