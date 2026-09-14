@@ -1,0 +1,14 @@
+{
+  "audit": 128,
+  "rows": [
+    {"m": 1, "monotone_functions": 3, "raw_truth_table_bits": 2, "exact_class_index_bits": 2, "max_minimal_success_witnesses": 1, "reconstruction_mismatches": 0},
+    {"m": 2, "monotone_functions": 6, "raw_truth_table_bits": 4, "exact_class_index_bits": 3, "max_minimal_success_witnesses": 2, "reconstruction_mismatches": 0},
+    {"m": 3, "monotone_functions": 20, "raw_truth_table_bits": 8, "exact_class_index_bits": 5, "max_minimal_success_witnesses": 3, "reconstruction_mismatches": 0},
+    {"m": 4, "monotone_functions": 168, "raw_truth_table_bits": 16, "exact_class_index_bits": 8, "max_minimal_success_witnesses": 6, "reconstruction_mismatches": 0},
+    {"m": 5, "monotone_functions": 7581, "raw_truth_table_bits": 32, "exact_class_index_bits": 13, "max_minimal_success_witnesses": 10, "reconstruction_mismatches": 0}
+  ],
+  "total_functions_checked_m1_to_m5": 7778,
+  "total_reconstruction_mismatches": 0,
+  "m5_exhaustive": true,
+  "status": "PASS"
+}
