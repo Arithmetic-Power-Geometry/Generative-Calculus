@@ -1,0 +1,16 @@
+{
+  "audit": 146,
+  "model": "deterministic finite dynamic translator; 3 states, 2 state-dependent actions, edge costs in {0,1}",
+  "systems_exhaustively_checked": 117649,
+  "reachable_systems": 76440,
+  "unreachable_systems": 41209,
+  "zero_cost_reachable_systems": 38220,
+  "minimum_cost_histogram": {
+    "0": 38220,
+    "1": 34447,
+    "2": 3773
+  },
+  "shortest_path_vs_simple_sequence_mismatches": 0,
+  "status": "PASS",
+  "claim_scope": "finite fully observed augmented operational state; deterministic transitions; nonnegative additive costs"
+}
