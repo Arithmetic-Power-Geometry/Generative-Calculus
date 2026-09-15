@@ -1,0 +1,10 @@
+{
+  "audit": 153,
+  "claim": "equal static net-cost frontier does not determine sequential feasibility",
+  "witness_axes": 4,
+  "witness_assertions": 8,
+  "exhaustive_two_step_traces": 64,
+  "violations": 0,
+  "status": "PASS",
+  "novelty_status": "IMPORTED/KNOWN mechanism; not GC-II novelty"
+}
