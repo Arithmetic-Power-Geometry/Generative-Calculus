@@ -1,0 +1,13 @@
+{
+  "audit": 150,
+  "family": "nth-symbol-from-right",
+  "tested_n": [1,2,3,4,5,6,7,8],
+  "status": "PASS",
+  "total_pair_checks": 43435,
+  "failures": 0,
+  "largest_verified_residual_family": 256,
+  "theorem_candidate": "For L_n={w: the n-th symbol from the right is 1}, every exact deterministic sufficient-state machine has at least 2^n states; 2^n states suffice.",
+  "status_theorem": "IMPORTED/KNOWN",
+  "gc2_novelty_status": "FALSIFIED_FOR_STATE_EXPLOSION_ALONE",
+  "note": "Pairwise distinguishability was independently regression-tested for n=1..8 before freezing this result. The committed checker extends the same exact test through n=10. The mechanism is classical Myhill-Nerode / deterministic state complexity and is retained as a collision boundary, not a novelty claim."
+}
