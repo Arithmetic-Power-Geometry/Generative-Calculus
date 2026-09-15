@@ -1,0 +1,9 @@
+{
+  "audit": 158,
+  "closures": 16,
+  "ordered_pairs": 256,
+  "ordered_triples": 4096,
+  "status": "PASS",
+  "triangle_violations": 0,
+  "zero_preorder_violations": 0
+}
