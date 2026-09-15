@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "functions_exactly_synthesized_per_library": {"AON": 16, "NAND": 16, "XAN": 16},
+  "xor_truth_table": "0110",
+  "xor_min_gate_cost": {"AON": 4, "NAND": 4, "XAN": 1},
+  "interpretation": "Same extensional Boolean capability and hence same function/residual semantics can have different exact primitive realization cost under different typed interface libraries. This phenomenon is known exact circuit synthesis / gate-set complexity, not independent GC-II novelty."
+}
