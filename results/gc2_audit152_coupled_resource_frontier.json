@@ -1,0 +1,11 @@
+{
+  "budgets_checked": 81,
+  "pareto_size_S1": 4,
+  "pareto_size_S2": 5,
+  "separating_budgets": [
+    {"budget": [1,1,1,1], "S1": false, "S2": true}
+  ],
+  "single_axis_minima_S1": [0,0,0,0],
+  "single_axis_minima_S2": [0,0,0,0],
+  "status": "PASS"
+}
