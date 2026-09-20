@@ -1,0 +1,12 @@
+{
+  "audit": 279,
+  "status": "PASS",
+  "alpha": 2,
+  "r": 3,
+  "dimensions_min": 1,
+  "dimensions_max": 12,
+  "targets_checked": 1911,
+  "ordered_distinct_pairs_checked": 1151364,
+  "arithmetic": "exact integer",
+  "claim_tested": "serial exact-k counter realizes the middle-layer family and no distinct attainable vector alpha-covers another"
+}
