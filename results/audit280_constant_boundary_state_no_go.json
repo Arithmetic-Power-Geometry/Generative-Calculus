@@ -1,0 +1,13 @@
+{
+  "audit": 280,
+  "status": "PASS",
+  "alpha": 2,
+  "r": 3,
+  "pairs_min": 1,
+  "pairs_max": 10,
+  "dimension_max": 20,
+  "targets_checked": 2046,
+  "ordered_distinct_pairs_checked": 1396054,
+  "arithmetic": "exact integer",
+  "claim_tested": "paired independent choices have constant boundary control state yet every distinct attainable vector fails to alpha-cover every other"
+}
