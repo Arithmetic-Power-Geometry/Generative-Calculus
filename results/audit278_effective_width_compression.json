@@ -1,0 +1,12 @@
+{
+  "audit": 278,
+  "status": "PASS",
+  "alpha": 2,
+  "mode_families": 492,
+  "targets_checked": 9235,
+  "representative_target_checks": 384639,
+  "max_ambient_dimension": 7,
+  "max_active_width": 3,
+  "arithmetic": "exact integer",
+  "claim_tested": "mode-local alpha-representative construction covers every target and respects the theorem cardinality bound"
+}
