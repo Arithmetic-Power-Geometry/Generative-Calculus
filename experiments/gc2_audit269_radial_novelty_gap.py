@@ -60,8 +60,6 @@ def main():
 
     for B, E in nested:
         assert (omega(B, E) > 1.0) == escape(B, E)
-
-        # coherent positive coordinate rescaling
         scale = (3, 5)
         Bs = [tuple(x*s for x, s in zip(b, scale)) for b in B]
         Es = [tuple(x*s for x, s in zip(e, scale)) for e in E]
@@ -76,17 +74,16 @@ def main():
             comparisons += 1
     assert comparisons == 4225
 
-    # edge cases
     assert omega([], [(1, 1)]) == inf
     assert omega([(0, 0)], [(0, 0)]) == 1.0
     assert rho([(0, 1)], (0, 1)) == 1.0
     assert rho([(1, 0)], (0, 1)) == inf
 
-    # sharpness example: first component gap 2, second component no novelty
+    # Sharpness: composition with a zero-cost identity component preserves the gap.
     B1, E1 = [(2, 2)], [(2, 2), (1, 1)]
-    B2, E2 = [(1, 1)], [(1, 1)]
+    B2 = E2 = [(0, 0)]
     assert omega(B1, E1) == 2.0
-    assert omega(minkowski(B1, B2), minkowski(E1, E2)) <= 2.0
+    assert omega(minkowski(B1, B2), minkowski(E1, E2)) == 2.0
 
     print({"nested_systems": len(nested), "composition_comparisons": comparisons, "status": "PASS"})
 
