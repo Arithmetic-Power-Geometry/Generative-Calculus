@@ -1,0 +1,14 @@
+{
+  "audit": 325,
+  "model": "finite deterministic branch-relative admissibility; three singleton tests; positive integer cell-dependent costs",
+  "exhaustive_admissibility_systems_checked": 4096,
+  "budgets_checked_per_system": [0,1,2,3,4,5,6,7,8,9,10],
+  "property": "budgeted_winning(root,b) == (exact_minimax_value(root) <= b)",
+  "failures": 0,
+  "tight_singleton_family": {
+    "K": [2,3,4,5,6,7,8],
+    "V": [1,2,3,4,5,6,7],
+    "expected": "K-1"
+  },
+  "status": "NUMERICALLY SUPPORTED; theorem separately PROVED in docs/gc2_audit325_budgeted_closure_escape_value.md"
+}
