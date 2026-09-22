@@ -1,0 +1,17 @@
+{
+  "audit": 327,
+  "model": "nonnegative vector resources under adversarial outcome aggregation",
+  "exhaustive_model": {
+    "dimensions": 3,
+    "outcomes": 2,
+    "coordinate_values": [0, 1, 2],
+    "weight_values": [0, 1]
+  },
+  "cases_checked": 5832,
+  "property": "S_w <= A_w <= q S_w, including q=0 degeneracy",
+  "failures": 0,
+  "sharpness_checked_dimensions": [1, 2, 3, 4, 5, 6, 7, 8],
+  "sharpness_construction": "one coordinate-concentrated outcome per active resource; exact ratio q",
+  "arithmetic": "exact integers only",
+  "status": "NUMERICALLY SUPPORTED; theorem separately PROVED in docs/gc2_audit327_scalarization_adversary_noncommutativity.md"
+}
