@@ -1,0 +1,11 @@
+{
+  "audit": 326,
+  "model": "two-resource layered deterministic closure escape",
+  "m_checked": [1,2,3,4,5,6,7,8,9,10,11,12],
+  "property": "all 2^m policy cost vectors (x,2^m-1-x) are distinct and pairwise Pareto-incomparable",
+  "frontier_sizes": [2,4,8,16,32,64,128,256,512,1024,2048,4096],
+  "failures": 0,
+  "weighted_sum_check": "w1>w2 selects x=0 uniquely; w1<w2 selects x=T uniquely; w1=w2 ties entire frontier",
+  "arithmetic": "exact integers only",
+  "status": "NUMERICALLY SUPPORTED; theorem separately PROVED in docs/gc2_audit326_vector_resource_frontier.md"
+}
