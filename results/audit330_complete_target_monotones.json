@@ -1,0 +1,12 @@
+{
+  "audit": 330,
+  "method": "exhaustive labelled binary relations; exact Boolean arithmetic",
+  "rows": [
+    {"n": 1, "relations_checked": 2, "preorders": 1, "failures": 0},
+    {"n": 2, "relations_checked": 16, "preorders": 4, "failures": 0},
+    {"n": 3, "relations_checked": 512, "preorders": 29, "failures": 0},
+    {"n": 4, "relations_checked": 65536, "preorders": 355, "failures": 0}
+  ],
+  "total_preorders_verified": 389,
+  "total_failures": 0
+}
