@@ -1,0 +1,27 @@
+{
+  "audit": 331,
+  "method": "exact antichain witness sets plus Sperner-optimal constant-weight Boolean codes",
+  "range": {"q_min": 2, "q_max": 20},
+  "rows": [
+    {"q":2,"target_min":2,"boolean_min":2,"middle_layer_capacity":2},
+    {"q":3,"target_min":3,"boolean_min":3,"middle_layer_capacity":3},
+    {"q":4,"target_min":4,"boolean_min":4,"middle_layer_capacity":6},
+    {"q":5,"target_min":5,"boolean_min":4,"middle_layer_capacity":6},
+    {"q":6,"target_min":6,"boolean_min":4,"middle_layer_capacity":6},
+    {"q":7,"target_min":7,"boolean_min":5,"middle_layer_capacity":10},
+    {"q":8,"target_min":8,"boolean_min":5,"middle_layer_capacity":10},
+    {"q":9,"target_min":9,"boolean_min":5,"middle_layer_capacity":10},
+    {"q":10,"target_min":10,"boolean_min":5,"middle_layer_capacity":10},
+    {"q":11,"target_min":11,"boolean_min":6,"middle_layer_capacity":20},
+    {"q":12,"target_min":12,"boolean_min":6,"middle_layer_capacity":20},
+    {"q":13,"target_min":13,"boolean_min":6,"middle_layer_capacity":20},
+    {"q":14,"target_min":14,"boolean_min":6,"middle_layer_capacity":20},
+    {"q":15,"target_min":15,"boolean_min":6,"middle_layer_capacity":20},
+    {"q":16,"target_min":16,"boolean_min":6,"middle_layer_capacity":20},
+    {"q":17,"target_min":17,"boolean_min":6,"middle_layer_capacity":20},
+    {"q":18,"target_min":18,"boolean_min":6,"middle_layer_capacity":20},
+    {"q":19,"target_min":19,"boolean_min":6,"middle_layer_capacity":20},
+    {"q":20,"target_min":20,"boolean_min":6,"middle_layer_capacity":20}
+  ],
+  "failures": 0
+}
