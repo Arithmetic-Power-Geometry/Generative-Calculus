@@ -1,0 +1,21 @@
+{
+  "audit": 328,
+  "model": "finite deterministic acyclic AND-OR trees",
+  "dimensions": [1, 2, 3],
+  "random_seed": 328,
+  "trees_per_dimension": 300,
+  "trees_checked": 900,
+  "integer_action_cost_range": [0, 3],
+  "max_depth": 3,
+  "max_actions_per_node": 2,
+  "max_children_per_action": 2,
+  "budget_grid_per_coordinate": [0, 6],
+  "checks": {
+    "pareto_bellman_equals_direct_complete_policy_enumeration": "PASS",
+    "budget_feasibility_equivalence": "PASS",
+    "coordinate_permutation_invariance": "PASS",
+    "positive_diagonal_rescaling_invariance": "PASS"
+  },
+  "arithmetic": "exact integers",
+  "status": "PASS"
+}
