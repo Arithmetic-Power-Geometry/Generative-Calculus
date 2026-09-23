@@ -1,0 +1,10 @@
+{
+  "audit": 338,
+  "independent_saturation_check": {
+    "q_exhaustive": [1, 2, 3, 4],
+    "relations_checked": 66066,
+    "failures": 0,
+    "horizon_checked_through": "q+2"
+  },
+  "note": "Independent exact integer/Boolean exhaustive check of the finite-saturation claim. The repository verifier additionally checks Boolean-power support against direct bounded reachability when run."
+}
