@@ -1,0 +1,13 @@
+{
+  "audit": 333,
+  "antichain_product_cases": 1024,
+  "strict_subadditive_antichain_pairs": 951,
+  "counterexample_A3xA3": {
+    "factor_dimension": 3,
+    "product_dimension": 5,
+    "sum": 6
+  },
+  "boolean_endpoint_cases": 169,
+  "failures": 0,
+  "method": "exact integer binomial thresholds for A_m x A_n = A_(mn), m,n=1..32; exact rank/cardinality checks for B_a x B_b = B_(a+b), a,b=0..12"
+}
