@@ -1,0 +1,10 @@
+{
+  "audit": 337,
+  "q_exhaustive": 3,
+  "relations": 512,
+  "horizons": [0, 1, 2, 3, 4],
+  "cases_checked": 2560,
+  "equality_cases": 1297,
+  "failures": 0,
+  "strict_improvements_over_audit336": 924
+}
