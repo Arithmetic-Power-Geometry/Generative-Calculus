@@ -1,0 +1,15 @@
+{
+  "audit": 334,
+  "q_checked": 4096,
+  "failures": [],
+  "A3_dimension": 3,
+  "V3_dimension": 2,
+  "strict_decrease_verified": true,
+  "positive_chain_minus_antichain_cases": 4091,
+  "zero_cases": 2,
+  "negative_cases": 3,
+  "first_positive_q": 6,
+  "max_tested_additive_gap": [4096, 4080],
+  "max_tested_chain_to_antichain_ratio_fraction": [4095, 15],
+  "method": "exact integer Sperner thresholds; chain height; explicit A3->V3 B2 embedding"
+}
