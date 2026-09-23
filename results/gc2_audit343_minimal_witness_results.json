@@ -1,0 +1,10 @@
+{
+  "audit": 343,
+  "n": 3,
+  "labelled_preorders": 29,
+  "subset_coefficient_cases": 473,
+  "witness_union_formula_failures": 0,
+  "unique_witness_pairs_checked_in_full_absent_edge_universes": 0,
+  "unique_witness_spectrum_failures": 0,
+  "note": "The exhaustive universe contains every absent direct edge, so the unique-witness corollary is proved algebraically in the audit but is not empirically evidenced by this particular exhaustive family. No numerical claim is made from the vacuous unique-witness check."
+}
