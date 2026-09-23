@@ -1,0 +1,18 @@
+{
+  "audit": 344,
+  "family": "m pairwise-disjoint two-edge s-t routes",
+  "cases": 8,
+  "subset_evaluations": 87380,
+  "failures": 0,
+  "rows": [
+    {"m":1,"states":3,"new_edges":2,"minimal_witness_count":1,"max_minimal_witness_size":2,"witness_union_rank":2,"top_interaction_order":2,"top_mobius_coefficient":1,"expected_coefficient":1,"ok":true},
+    {"m":2,"states":4,"new_edges":4,"minimal_witness_count":2,"max_minimal_witness_size":2,"witness_union_rank":4,"top_interaction_order":4,"top_mobius_coefficient":-1,"expected_coefficient":-1,"ok":true},
+    {"m":3,"states":5,"new_edges":6,"minimal_witness_count":3,"max_minimal_witness_size":2,"witness_union_rank":6,"top_interaction_order":6,"top_mobius_coefficient":1,"expected_coefficient":1,"ok":true},
+    {"m":4,"states":6,"new_edges":8,"minimal_witness_count":4,"max_minimal_witness_size":2,"witness_union_rank":8,"top_interaction_order":8,"top_mobius_coefficient":-1,"expected_coefficient":-1,"ok":true},
+    {"m":5,"states":7,"new_edges":10,"minimal_witness_count":5,"max_minimal_witness_size":2,"witness_union_rank":10,"top_interaction_order":10,"top_mobius_coefficient":1,"expected_coefficient":1,"ok":true},
+    {"m":6,"states":8,"new_edges":12,"minimal_witness_count":6,"max_minimal_witness_size":2,"witness_union_rank":12,"top_interaction_order":12,"top_mobius_coefficient":-1,"expected_coefficient":-1,"ok":true},
+    {"m":7,"states":9,"new_edges":14,"minimal_witness_count":7,"max_minimal_witness_size":2,"witness_union_rank":14,"top_interaction_order":14,"top_mobius_coefficient":1,"expected_coefficient":1,"ok":true},
+    {"m":8,"states":10,"new_edges":16,"minimal_witness_count":8,"max_minimal_witness_size":2,"witness_union_rank":16,"top_interaction_order":16,"top_mobius_coefficient":-1,"expected_coefficient":-1,"ok":true}
+  ],
+  "failure_details": []
+}
