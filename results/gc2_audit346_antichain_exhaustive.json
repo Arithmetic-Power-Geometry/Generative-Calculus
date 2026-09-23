@@ -1,0 +1,18 @@
+{
+  "audit": 346,
+  "claim": "Every minimal-witness family is an antichain; any antichain on m grounded operations with maximum member size lambda obeys nu <= max_{k<=lambda} C(m,k).",
+  "verification": {
+    "method": "independent exhaustive enumeration of every nonempty antichain of the Boolean lattice for m=1,2,3,4; compare cardinality with the restricted Sperner bound",
+    "antichain_cases": 193,
+    "failures": 0,
+    "largest_m_exhaustive": 4
+  },
+  "edge_cases_checked": ["singleton ground set", "families containing empty set", "mixed witness sizes", "central-layer extremizers"],
+  "status": {
+    "minimal_witness_antichain": "PROVED",
+    "restricted_sperner_bound": "PROVED / IMPORTED-KNOWN",
+    "interaction_ceiling": "PROVED",
+    "four_coordinate_bridge": "OPEN"
+  },
+  "interpretation": "Witness diversity nu is not independent of grounded support m. This is a consistency constraint, not yet a breakthrough accounting law, because Audit 340 already shows schema cardinality need not control grounded support."
+}
