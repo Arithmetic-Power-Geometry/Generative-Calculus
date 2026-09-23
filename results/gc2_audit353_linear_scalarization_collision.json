@@ -1,0 +1,14 @@
+{
+  "audit": 353,
+  "system_A": [[0, 3], [3, 0]],
+  "system_B": [[0, 3], [2, 2], [3, 0]],
+  "weight_grid": "integer weights 0..100 in each coordinate",
+  "weight_pairs_checked": 10201,
+  "scalar_profile_failures": 0,
+  "middle_vector_pareto_minimal_in_B": true,
+  "separating_budget": [2, 2],
+  "A_feasible_at_separating_budget": false,
+  "B_feasible_at_separating_budget": true,
+  "symbolic_proof": "for every a,b >= 0: if a<=b then min(3a,3b)=3a and 2a+2b>=4a>=3a; symmetric for b<=a",
+  "claim_scope": "linear weighted-sum scalarization profile is incomplete for exact componentwise budget feasibility"
+}
