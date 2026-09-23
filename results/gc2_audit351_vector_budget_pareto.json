@@ -1,0 +1,13 @@
+{
+  "audit": 351,
+  "states": 3,
+  "systems": 4096,
+  "ordered_pairs_per_system": 6,
+  "budgets_per_pair": 16,
+  "comparisons": 393216,
+  "failures": 0,
+  "multi_frontier_instances": 1536,
+  "cost_options_per_edge": ["absent", "(1,0)", "(0,1)", "(1,1)"],
+  "budget_grid": "{0,1,2,3}^2",
+  "method": "independent simple-path enumeration versus Pareto-minimal label feasibility"
+}
