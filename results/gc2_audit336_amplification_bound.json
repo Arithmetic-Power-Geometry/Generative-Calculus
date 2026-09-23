@@ -1,0 +1,17 @@
+{
+  "audit": 336,
+  "cases_checked": 2560,
+  "equality_cases": 964,
+  "failures": 0,
+  "horizons": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "q_exhaustive": 3,
+  "relations": 512,
+  "successor_family_failures": 0,
+  "successor_family_n_max": 64
+}
