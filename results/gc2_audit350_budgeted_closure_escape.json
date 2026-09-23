@@ -1,0 +1,11 @@
+{
+  "audit": 350,
+  "states": 3,
+  "edge_assignments": "absent or cost in {1,2,3}",
+  "configurations": 4096,
+  "ordered_source_target_pairs_per_configuration": 6,
+  "budgets": [0, 1, 2, 3, 4, 5, 6],
+  "exact_cases": 172032,
+  "failures": 0,
+  "claim_tested": "direct subset-enabling semantics equals min-plus shortest-path budget threshold"
+}
