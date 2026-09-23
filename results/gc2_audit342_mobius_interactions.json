@@ -1,0 +1,21 @@
+{
+  "audit": 342,
+  "status": "PASS",
+  "method": "independent exact finite enumeration",
+  "three_state_distinct_preorders": 29,
+  "three_state_subset_cases_through_three_new_edges": 406,
+  "decomposition_failures": 0,
+  "observed_interaction_signs": [-1, 0, 1],
+  "explicit_positive_second_order_witness": {
+    "baseline": "identity on {0,1,2}",
+    "new_edges": [[0,1],[1,2]],
+    "J12": 1
+  },
+  "explicit_negative_second_order_witness": {
+    "baseline": "identity plus 0->1",
+    "new_edges": [[0,2],[1,2]],
+    "J12": -1
+  },
+  "high_order_chain_witness_checked_through_order": 8,
+  "notes": "Möbius decomposition is an exact algebraic identity; enumeration is a regression/counterexample audit, not evidence replacing proof."
+}
