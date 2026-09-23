@@ -1,0 +1,15 @@
+{
+  "max_q": 4,
+  "preorders": 389,
+  "edge_cases": 2818,
+  "failures": 0,
+  "identity_exposure_failures": 0,
+  "max_exposure": 7,
+  "by_q": {
+    "1": {"preorders": 1, "absent_edge_cases": 0, "failures": 0},
+    "2": {"preorders": 4, "absent_edge_cases": 4, "failures": 0},
+    "3": {"preorders": 29, "absent_edge_cases": 102, "failures": 0},
+    "4": {"preorders": 355, "absent_edge_cases": 2712, "failures": 0}
+  },
+  "note": "Exact independent execution of experiments/gc2_audit341_single_edge_rectangle.py; all labelled preorders through q=4 and every absent directed edge were checked."
+}
