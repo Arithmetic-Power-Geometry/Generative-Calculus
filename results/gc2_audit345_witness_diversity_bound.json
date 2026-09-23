@@ -1,0 +1,25 @@
+{
+  "audit": 345,
+  "cases": 24,
+  "failures": 0,
+  "parallel_family": {
+    "m_range": [1, 8],
+    "lambda": 2,
+    "nu": "m",
+    "rho": "2m",
+    "lambda_times_nu": "2m",
+    "top_orders": [2,4,6,8,10,12,14,16],
+    "top_coefficients": [1,-1,1,-1,1,-1,1,-1],
+    "all_pass": true
+  },
+  "serial_family": {
+    "k_range": [1, 16],
+    "lambda": "k",
+    "nu": 1,
+    "rho": "k",
+    "lambda_times_nu": "k",
+    "top_coefficient": 1,
+    "all_pass": true
+  },
+  "interpretation": "Both complementary witness families attain rho=lambda*nu. Parallel routes show lambda alone cannot control interaction order; serial chains show nu alone cannot control interaction order. Together they verify sharpness/necessity of both factors for the proved sufficient product bound, without claiming the product is a necessary invariant in arbitrary overlapping systems."
+}
