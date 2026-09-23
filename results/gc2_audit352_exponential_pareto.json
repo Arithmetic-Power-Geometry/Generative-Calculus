@@ -1,0 +1,21 @@
+{
+  "audit": 352,
+  "construction": "k-stage layered DAG with two parallel operational choices per stage, charges (2^i,0) or (0,2^i)",
+  "resource_dimension": 2,
+  "k_range_checked": [1, 12],
+  "families_checked": 12,
+  "largest_k": 12,
+  "largest_vertices": 13,
+  "largest_operational_choices": 24,
+  "largest_path_count": 4096,
+  "largest_pareto_frontier": 4096,
+  "failures": 0,
+  "verified_properties": [
+    "exactly 2^k paths",
+    "2^k distinct cost vectors",
+    "all vectors have coordinate sum 2^k-1",
+    "all cost vectors are pairwise nondominating",
+    "frontier equals {(x,2^k-1-x): 0 <= x <= 2^k-1}"
+  ],
+  "claim_scope": "explicit Pareto-vector enumeration has exponential output size; no lower bound is claimed for every possible implicit or symbolic representation"
+}
