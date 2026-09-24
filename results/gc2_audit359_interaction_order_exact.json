@@ -1,0 +1,13 @@
+{
+  "audit": 359,
+  "theorem": "minimum generated-operation interaction-order formula",
+  "three_vertex_exhaustive": {
+    "ternary_systems": 729,
+    "expected_ternary_systems": 729,
+    "ordered_pair_checks": 4374,
+    "positive_layers_seen": [1, 2],
+    "max_order_seen": 2,
+    "failures": 0
+  },
+  "verification_note": "Independent exact execution of the committed verifier logic completed with zero assertion failures."
+}
